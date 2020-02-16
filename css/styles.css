@@ -1,10 +1,73 @@
-/* My Awesome Styles */
+/* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
+ */
+/* Doodle Stage */
 
-/* Diagnostic Styling 
-  * Change Background Color
-  * Outline Elements
-*/
 
-* {
-    outline: 1px dotted black;
+body {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html, body {
+  height: 100%;
+}
+
+.Title {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+} 
+
+main {
+  display: block;
+}
+
+/* notes, credits, etc.. */
+#stage {
+  background:
+  #2F80ED ;
+  height: 300px;
+  width: 600px;
+  overflow: visible;
+  position: relative;
+}
+
+.Stage {
+color: #16FFBD;
+}
+
+ /* CREDIT for styling of input box to: Professor Colin P. Manikoth [https://codepen.io/manikoth]  */
+input {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px
+rgba(0, 0, 0, 0.08);
+border: 1px solid
+#aaa;
+display: block;
+padding: 1em;
+margin: 2em auto;
+outline: none;
+line-height: 2em;
+width: 80%;
+}
+
+#search {
+text-align: center
+}
+
+/* Guitar Vectors/svg designed by Erik Stewart-Smith in illustrator & Figma */
+#FlyingV {
+position: absolute;
+top: 35px;
+display: flex;
+height: 80%;
+width: 80%;
+max-width:300px;
+
+}
+
+#stage:hover h1 {
+  background: #FF4EFF;
 }
