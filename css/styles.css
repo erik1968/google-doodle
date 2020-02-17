@@ -13,6 +13,9 @@ body {
 
 html, body {
   height: 100%;
+  font-family: sans-serif;
+  line-height: 1.15;
+-webkit-text-size-adjust: 100%;
 }
 
 .Title {
@@ -60,6 +63,7 @@ text-align: center
 /* Guitar Vectors/svg designed by Erik Stewart-Smith in illustrator & Figma */
 #FlyingV {
 position: absolute;
+
 top: 35px;
 display: flex;
 height: 80%;
