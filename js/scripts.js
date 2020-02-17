@@ -1,3 +1,3 @@
 console.log('OK');
 
-gsap.from('.Stage', { x: -300 } );
+gsap.from('#PlayMe', { x: -300, duration: 2} );
