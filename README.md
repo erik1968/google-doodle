@@ -8,7 +8,7 @@ The plan so far is to use one of many guitar vectors I'm iterating in Figma and 
 - Next steps: Start bringing it to life! Want to have the strings vibrate when clicked on and then - somehow - have a bolt of energy stream from the guitar through the word Google which is large and centered and then activate the "MegaStack" amplifier w/little bolts & stars bursting outward in arc over the amp and upwards
 
 ## Collage
-[Link to Figma Collage]([https://www.figma.com/file/TIKf8NMcnowDKicYKsNfPq/Google-Doodle?node-id=1%3A2])
+[Link to Figma Collage](https://www.figma.com/file/TIKf8NMcnowDKicYKsNfPq/Google-Doodle?node-id=1%3A2)
 
 ## References
 
