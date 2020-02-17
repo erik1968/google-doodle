@@ -42,7 +42,7 @@ main {
 color: #16FFBD;
 }
 
- /* Styling by Professor Colin P. Manikoth [https://codepen.io/manikoth]  */
+ /* CREDIT: Styling by Professor Colin P. Manikoth [https://codepen.io/manikoth]  */
 input {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px
 rgba(0, 0, 0, 0.08);
@@ -57,7 +57,24 @@ width: 80%;
 }
 
 #search {
-text-align: center
+text-align: center;
+padding: 5px;  
+  
+}
+
+/* CREDIT: Styling by Professor Colin P. Manikoth [https://codepen.io/manikoth]  */
+button {
+	display: inline-block;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	padding: .5em 1em;
+	text-align: center;
 }
 
 /* Guitar Vectors/svg designed by Erik Stewart-Smith in illustrator & Figma */
@@ -69,8 +86,6 @@ display: flex;
 height: 80%;
 width: 80%;
 max-width:300px;
-
-
 }
 
 #MegaStack {
@@ -82,7 +97,6 @@ display: flex;
 height: 80%;
 width: 80%;
 max-width:300px;
-
 }
 
 #stage:hover h1 {
