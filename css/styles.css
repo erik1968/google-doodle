@@ -1,7 +1,14 @@
 /* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
- */   
+ */      
 /* Doodle Stage FF007F  */
-
+/* #GOOGLE {
+  position: absolute;
+    top: 5px;
+    display: flex;
+    height: 40%;
+    width: 40%;
+    max-width: 100px;
+} */
 
 body {
   width: 100%;
@@ -79,26 +86,46 @@ button {
 /* Guitar Vectors/svg designed by Erik Stewart-Smith in illustrator & Figma */
 #FlyingV {
 position: absolute;
-
-top: 35px;
-display: flex;
-height: 80%;
-width: 80%;
-max-width:300px;
+    top: 54px;
+    display: flex;
+    height: 80%;
+    width: 80%;
+    max-width: 140px;
 
 }
 
 #MegaStack {
-position: absolute;
-bottom: 0;
-right: 0;
-top: 35px;
-display: flex;
-height: 80%;
-width: 80%;
-max-width:300px;
-
+    position: absolute;
+    bottom: 0;
+    right: -8px;
+    top: 25px;
+    display: flex;
+    height: 90%;
+    width: 85%;
+    max-width: 160px;
 }
+
+#PlayMe {
+    position: absolute;
+    left: 5px;
+    top: -16px;
+    display: flex;
+    height: 30%;
+    width: 60%;
+    max-width: 150px;
+}
+
+#GOOGLE {
+    top: -20px;
+    display: flex;
+    height: 55%;
+    width: 70%;
+    max-width: 380px;
+    right: 0;
+    padding-left: 85px;
+    padding-top: 60px;
+}
+
 
 /* saved for when start transitions/animations of svgs
 #stage:hover h1 {
