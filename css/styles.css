@@ -1,6 +1,6 @@
 /* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
- */
-/* Doodle Stage */
+ */   
+/* Doodle Stage FF007F  */
 
 
 body {
@@ -31,7 +31,7 @@ main {
 /* notes, credits, etc.. */
 #stage {
   background:
-  #2F80ED ;
+  #3FEEE3;
   height: 300px;
   width: 600px;
   overflow: visible;
@@ -39,10 +39,10 @@ main {
 }
 
 .Stage {
-color: #16FFBD;
+color: #FF007F;
 }
 
- /* CREDIT: Styling by Professor Colin P. Manikoth [https://codepen.io/manikoth]  */
+ /* Styling by Professor Colin P. Manikoth [https://codepen.io/manikoth]  */
 input {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px
 rgba(0, 0, 0, 0.08);
@@ -62,7 +62,6 @@ padding: 5px;
   
 }
 
-/* CREDIT: Styling by Professor Colin P. Manikoth [https://codepen.io/manikoth]  */
 button {
 	display: inline-block;
 	background-color: #f2f2f2;
@@ -86,6 +85,7 @@ display: flex;
 height: 80%;
 width: 80%;
 max-width:300px;
+
 }
 
 #MegaStack {
@@ -97,8 +97,10 @@ display: flex;
 height: 80%;
 width: 80%;
 max-width:300px;
+
 }
 
+/* saved for when start transitions/animations of svgs
 #stage:hover h1 {
   background: #FF4EFF;
-}
+} */
