@@ -4,7 +4,7 @@
 
 
 body {
-  width: 100%;
+  max-width: 100%;
   margin: 0;
   display: flex;
   align-items: center;
@@ -26,6 +26,8 @@ html, body {
 
 main {
   display: block;
+  max-width: 100%;
+
 }
 
 /* notes, credits, etc.. */
@@ -36,10 +38,7 @@ main {
   width: 600px;
   overflow: visible;
   position: relative;
-}
-
-.Stage {
-color: #FF007F;
+  max-width: 100%;
 }
 
  /* Styling by Professor Colin P. Manikoth [https://codepen.io/manikoth]  */
@@ -59,7 +58,7 @@ width: 80%;
 #search {
 text-align: center;
 padding: 5px;  
-  
+
 }
 
 button {
@@ -74,6 +73,7 @@ button {
 	font-weight: bold;
 	padding: .5em 1em;
 	text-align: center;
+
 }
 
 /* Guitar Vectors/svg designed by Erik Stewart-Smith in illustrator & Figma */
@@ -99,7 +99,7 @@ position: absolute;
     max-width: 160px;
 }
 
-/* Play Me svg translated from retro 80s font: Arcade Machine for personal & educational use */
+/* Each Letter Specified w/InternalCSS in the SVG layers/file for targeting in animations/transitions; Source typeface translated from retro 80s font: Arcade Machine for personal & educational use */
 #PlayMe {
     position: absolute;
     left: 5px;
@@ -110,7 +110,7 @@ position: absolute;
     max-width: 150px;
 }
 
-/* GOOGLE svg translated from retro 80s font: Arcade Machine for personal & educational use */
+/* Each Letter Specified w/InternalCSS in the SVG layers/file for targeting in animations/transitions; Source typeface translated from retro 80s font: Arcade Machine for personal & educational use */
 #GOOGLE {
     top: -20px;
     display: flex;
@@ -122,6 +122,15 @@ position: absolute;
     padding-top: 60px;
 }
 
+/* NEED to do this for each SVG: #PlayMe, #GOOGLE, #MegaStack, #FlyingV*/
+@media screen and (max-width: 480px) { 
+    #stage {
+      height: 150px;
+      width: 300px;
+}
+   
+
+}
 
 /* saved for when start transitions/animations of svgs
 #stage:hover h1 {
