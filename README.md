@@ -10,10 +10,10 @@ The plan so far is to use one of many guitar vectors I'm iterating in Figma and 
 
 - Next/Setup Tasks To-Do ASAP: 
     Edit SVGs so each element has an InternalCSS Style Name that can be targeted for Transitions and Animations using CSS and/or Js
-    "GOOGLE" Head (large, centered in #Stage) - Done
-    "Play Me!" Head (Med, Upper L-Hand Corner #Stage) - Done
-    "MegaStack" Guitar Amplifier Stack (Large, R-Hand Side #Stage) ______ 
-    "FlyingV" Guitar (Large, L-Hand Side #Stage) _______
+    "GOOGLE" Head (large, centered in #Stage) DONE
+    "Play Me!" Head (Med, Upper L-Hand Corner #Stage) DONE
+    "MegaStack" Guitar Amplifier Stack (Large, R-Hand Side #Stage) - PENDING 
+    "FlyingV" Guitar (Large, L-Hand Side #Stage) Need Edit in Ai - PENDING
 
 ## Collage
 [Link to Figma Collage](https://www.figma.com/file/TIKf8NMcnowDKicYKsNfPq/Google-Doodle?node-id=1%3A2)
