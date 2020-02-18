@@ -8,7 +8,12 @@ The plan so far is to use one of many guitar vectors I'm iterating in Figma and 
 
 - "Google" will be in center w/guitar on Left and amp on Right (DONE)
 
-- Next steps: Start bringing it to life! Want to have the strings vibrate when clicked on and then - somehow - have a bolt of energy stream from the guitar through the word Google which is large and centered and then activate the "MegaStack" amplifier w/little bolts & stars bursting outward in arc over the amp and upwards
+- Next/Setup Tasks To-Do ASAP: 
+    Edit SVGs so each element has an InternalCSS Style Name that can be targeted for Transitions and Animations using CSS and/or Js
+    "GOOGLE" Head (large, centered in #Stage) - Done
+    "Play Me!" Head (Med, Upper L-Hand Corner #Stage) - Done
+    "MegaStack" Guitar Amplifier Stack (Large, R-Hand Side #Stage) ______ 
+    "FlyingV" Guitar (Large, L-Hand Side #Stage) _______
 
 ## Collage
 [Link to Figma Collage](https://www.figma.com/file/TIKf8NMcnowDKicYKsNfPq/Google-Doodle?node-id=1%3A2)
