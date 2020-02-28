@@ -77,37 +77,43 @@ button {
 
 /* Guitar Vectors/svg designed by Erik Stewart-Smith in illustrator & Figma */
 #FlyingV {
-position: absolute;
-    top: 16px;
-    left: -204px;
-    display: flex;
-    height: 90%;
-    width: 90%;
-
+  position: absolute;
+  top: 16px;
+  left: -194px;
+  display: flex;
+  height: 85%;
+  width: 85%;
+ animation: floating 2s ease-in-out 0s infinite alternate;
 }
 
 /* Guitar Amp Stack svg designed by Erik Stewart-Smith in illustrator & Figma */
 #MegaStack {
-    position: absolute;
-    bottom: 0;
-    right: -8px;
-    top: 25px;
-    display: flex;
-    height: 90%;
-    width: 85%;
-    max-width: 160px;
+  position: absolute;
+  bottom: 0;
+  right: -8px;
+  top: 25px;
+  display: flex;
+  height: 90%;
+  width: 85%;
+  max-width: 160px;
 }
+
 
 /* Each Letter Specified w/InternalCSS in the SVG layers/file for targeting in animations/transitions; Source typeface translated from retro 80s font: Arcade Machine for personal & educational use */
 #GOOGLE {
-  top: -20px;
-  display: flex;
-  height: 70%;
-  max-width: 380px;
-  right: 0;
-  padding-left: 88px;
-  padding-top: 44px;
+top: -20px;
+display: flex;
+height: 70%;
+max-width: 380px;
+right: 0;
+padding-left: 88px;
+padding-top: 44px;
 }
+
+@keyframes floating {
+0% {top: 16px;}
+100% {top: 36px;}
+} 
 
 /* NEED to do this for each SVG: #PlayMe, #GOOGLE, #MegaStack, #FlyingV*/
 @media screen and (max-width: 480px) { 
