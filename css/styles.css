@@ -39,6 +39,7 @@ main {
   overflow: visible;
   position: relative;
   max-width: 100%;
+  overflow: hidden;
 }
 
  /* Styling by Professor Colin P. Manikoth [https://codepen.io/manikoth]  */
@@ -112,14 +113,13 @@ position: absolute;
 
 /* Each Letter Specified w/InternalCSS in the SVG layers/file for targeting in animations/transitions; Source typeface translated from retro 80s font: Arcade Machine for personal & educational use */
 #GOOGLE {
-    top: -20px;
-    display: flex;
-    height: 55%;
-    width: 70%;
-    max-width: 380px;
-    right: 0;
-    padding-left: 85px;
-    padding-top: 60px;
+  top: -20px;
+  display: flex;
+  height: 70%;
+  max-width: 380px;
+  right: 0;
+  padding-left: 88px;
+  padding-top: 44px;
 }
 
 /* NEED to do this for each SVG: #PlayMe, #GOOGLE, #MegaStack, #FlyingV*/
