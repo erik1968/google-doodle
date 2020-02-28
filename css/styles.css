@@ -96,33 +96,100 @@ button {
   height: 90%;
   width: 85%;
   max-width: 160px;
+-webkit-animation: pulse infinite alternate linear 2s;
+-moz-animation: pulse infinite alternate linear 2s;
+-ms-animation: pulse infinite alternate linear 2s;
+-o-animation: pulse infinite alternate linear 2s;
+animation: pulse infinite alternate linear 2s;
+opacity: 1 !important;
+visibility: visible !important;
 }
 
 
-/* Each Letter Specified w/InternalCSS in the SVG layers/file for targeting in animations/transitions; Source typeface translated from retro 80s font: Arcade Machine for personal & educational use */
+/* Source typeface translated from retro 80s font: Arcade Machine for personal & educational use */
 #GOOGLE {
-top: -20px;
+position: absolute;
+top: -10px;
 display: flex;
 height: 70%;
 max-width: 380px;
-right: 0;
+right: 134px;
 padding-left: 88px;
 padding-top: 44px;
 }
 
+
+
+/* for: #FlyingV floating */
 @keyframes floating {
 0% {top: 16px;}
 100% {top: 36px;}
 } 
 
-/* NEED to do this for each SVG: #PlayMe, #GOOGLE, #MegaStack, #FlyingV*/
-@media screen and (max-width: 480px) { 
-    #stage {
-      height: 150px;
-      width: 300px;
+/* for: #MegaStack pulse */
+@-webkit-keyframes pulse {
+0% {
+  -webkit-transform: scale(1);
 }
-   
-
+100% {
+  -webkit-transform: scale(1.05);
+}
+}
+@-moz-keyframes pulse {
+0% {
+  -moz-transform: scale(1);
+}
+100% {
+  -moz-transform: scale(1.05);
+}
+}
+@-ms-keyframes pulse {
+0% {
+  -ms-transform: scale(1);
+}
+100% {
+  -ms-transform: scale(1.05);
+}
+}
+@-o-keyframes pulse {
+0% {
+  -o-transform: scale(1);
+}
+100% {
+  -o-transform: scale(1.05);
+}
+}
+@-moz-keyframes pulse {
+0% {
+  transform: scale(1);
+}
+100% {
+  transform: scale(1.05);
+}
+}
+@-webkit-keyframes pulse {
+0% {
+  transform: scale(1);
+}
+100% {
+  transform: scale(1.05);
+}
+}
+@-o-keyframes pulse {
+0% {
+  transform: scale(1);
+}
+100% {
+  transform: scale(1.05);
+}
+}
+@keyframes pulse {
+0% {
+  transform: scale(1);
+}
+100% {
+  transform: scale(1.05);
+}
 }
 
 /* saved for when start transitions/animations of svgs
