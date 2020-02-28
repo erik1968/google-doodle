@@ -1,6 +1,5 @@
 /* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
  */      
-/* Doodle Stage FF007F  */
 
 
 body {
@@ -36,7 +35,6 @@ main {
   #3FEEE3;
   height: 300px;
   width: 600px;
-  overflow: visible;
   position: relative;
   max-width: 100%;
   overflow: hidden;
@@ -86,7 +84,6 @@ position: absolute;
     height: 90%;
     width: 90%;
 
-
 }
 
 /* Guitar Amp Stack svg designed by Erik Stewart-Smith in illustrator & Figma */
@@ -99,17 +96,6 @@ position: absolute;
     height: 90%;
     width: 85%;
     max-width: 160px;
-}
-
-/* Each Letter Specified w/InternalCSS in the SVG layers/file for targeting in animations/transitions; Source typeface translated from retro 80s font: Arcade Machine for personal & educational use */
-#PlayMe {
-    position: absolute;
-    left: 5px;
-    top: -16px;
-    display: flex;
-    height: 30%;
-    width: 60%;
-    max-width: 150px;
 }
 
 /* Each Letter Specified w/InternalCSS in the SVG layers/file for targeting in animations/transitions; Source typeface translated from retro 80s font: Arcade Machine for personal & educational use */
