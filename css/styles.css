@@ -80,11 +80,12 @@ button {
 /* Guitar Vectors/svg designed by Erik Stewart-Smith in illustrator & Figma */
 #FlyingV {
 position: absolute;
-    top: 54px;
+    top: 16px;
+    left: -204px;
     display: flex;
-    height: 80%;
-    width: 80%;
-    max-width: 140px;
+    height: 90%;
+    width: 90%;
+
 
 }
 
