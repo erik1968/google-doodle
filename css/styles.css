@@ -200,6 +200,13 @@ max-width: 380px;
 right: 134px;
 padding-left: 88px;
 padding-top: 44px;
+-webkit-animation: pulse infinite alternate linear 2s;
+  -moz-animation: pulse infinite alternate linear 2s;
+  -ms-animation: pulse infinite alternate linear 2s;
+  -o-animation: pulse infinite alternate linear 2s;
+  animation: pulse infinite alternate linear 2s;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 
