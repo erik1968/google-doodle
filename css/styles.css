@@ -75,6 +75,85 @@ button {
 
 }
 
+/* Attribute: borrowed & adapted/adjusted/duped animated 'Musical Notes' #STAGE from: CodePen acct Vladislav
+@Schepotin at: https://codepen.io/Schepotin/pen/GrWJzr */
+
+.note-amination {
+  position: absolute;
+  font-size: 5px;
+  color: #FF007F;
+  animation-name: notes;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  opacity: 0;
+  z-index: 1;
+}
+
+.note-position-1 {
+  top: 150px;
+  left: 15px;
+}
+
+.note-position-5 {
+  top: 150px;
+  right: 115px;
+}
+
+.note-position-2 {
+  top: 180px;
+  left: 35px;
+}
+
+.note-position-6 {
+  top: 180px;
+  right: 50px;
+}
+
+.note-position-3 {
+  top: 160px;
+  left: 85px;
+}
+
+.note-position-7 {
+  top: 160px;
+  right: 100px;
+}
+
+.note-position-4 {
+  top: 155px;
+  left: 75px;
+}
+
+.note-position-8 {
+  top: 155px;
+  right: 30px;
+}
+
+.animation-delay-1 {
+  animation-delay: 1s;
+}
+
+.animation-delay-2 {
+  animation-delay: 2s;
+}
+
+@keyframes notes {
+  0% {
+    font-size: 5px;
+    opacity: 0; 
+  }
+  50% {
+    opacity: 1; 
+  }
+  100% {
+    font-size: 20px;
+    margin-top: -150px;
+    opacity: 0; 
+  }
+}
+
+
 /* Guitar Vectors/svg designed by Erik Stewart-Smith in illustrator & Figma | Credit for Float animation: Codepen user viola
 @imvi at: (https://codepen.io/imvi/pen/RKprNB) */
 #FlyingV {
