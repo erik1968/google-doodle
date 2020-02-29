@@ -12,11 +12,11 @@ Edit SVG's layers to target for animations and FX (DONE)
     Used Figma Plugin [link to figma svgs with unique ids plugin](https://www.figma.com/community/plugin/804532959937451122/SVG-code-with-unique-links-ids) 
     
     or used illustrator w/export setting 
-* #FlyingV Floating (DONE)
-* #FlyingV Pulsing w/energy (lots options, working)
-* #GOOGLE Pulse of energy from #FlyingV - thru each letter (hopefully) - to #MegaStack
-    ! Will need a DELAY of this from the initial page load of 1-2s 
-* #MegaStack Energy Pulse like others BUT MUST HAVE DELAY of ~2-3s for LEFT TO RIGHT FLOW energy from #FlyingV thru #GOOGLE & appear to activate #MegaStack
+* #FlyingV Floating at 2s intervals (DONE)
+* #MegaStack Pulsing 2s intervals; try stay in synch w/FlyingV floating rythm (DONE)
+* ADD: Little Stars & Bolts (color #FF007F/same as FlyingV & Google letters)
+    ! Need to be random, appear & disappear, AND different sizes
+    (can be pre-positioned & then have appear/disappear randomly or a random generator)
 
 ## Collage
 [Link to Figma Collage](https://www.figma.com/file/TIKf8NMcnowDKicYKsNfPq/Google-Doodle?node-id=1%3A2)
