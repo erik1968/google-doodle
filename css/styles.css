@@ -131,10 +131,14 @@ button {
 }
 
 .animation-delay-1 {
-  animation-delay: 1s;
+  animation-delay: .5s;
 }
 
 .animation-delay-2 {
+  animation-delay: 1s;
+}
+
+.animation-delay-3 {
   animation-delay: 2s;
 }
 
