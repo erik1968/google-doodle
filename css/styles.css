@@ -80,7 +80,7 @@ button {
 
 .note-amination {
   position: absolute;
-  font-size: 5px;
+  font-size: 15px;
   color: #FF007F;
   animation-name: notes;
   animation-duration: 2s;
@@ -151,7 +151,7 @@ button {
     opacity: 1; 
   }
   100% {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: -150px;
     opacity: 0; 
   }
