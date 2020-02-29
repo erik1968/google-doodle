@@ -75,7 +75,8 @@ button {
 
 }
 
-/* Guitar Vectors/svg designed by Erik Stewart-Smith in illustrator & Figma */
+/* Guitar Vectors/svg designed by Erik Stewart-Smith in illustrator & Figma | Credit for Float animation: Codepen user viola
+@imvi at: (https://codepen.io/imvi/pen/RKprNB) */
 #FlyingV {
   position: absolute;
   top: 16px;
@@ -86,7 +87,7 @@ button {
  animation: floating 2s ease-in-out 0s infinite alternate;
 }
 
-/* Guitar Amp Stack svg designed by Erik Stewart-Smith in illustrator & Figma */
+/* Guitar Amp Stack svg designed by Erik Stewart-Smith in illustrator & Figma | Credit for 'pulse' to 'ALL Animation' at: (https://all-animation.github.io/assets/css/all-animation.css) */
 #MegaStack {
   position: absolute;
   bottom: 0;
