@@ -60,6 +60,7 @@ padding: 5px;
 
 }
 
+/* Styling by Professor Colin P. Manikoth [https://codepen.io/manikoth]  */
 button {
 	display: inline-block;
 	background-color: #f2f2f2;
@@ -98,6 +99,26 @@ button {
 .note-position-5 {
   top: 150px;
   right: 115px;
+}
+
+.note-position-9 {
+  top: 105px;
+  right: 200px;
+}
+
+.note-position-10 {
+  top: 105px;
+  right: 275px;
+}
+
+.note-position-11 {
+  top: 105px;
+  right: 350px;
+}
+
+.note-position-12 {
+  top: 105px;
+  right: 425px;
 }
 
 .note-position-2 {
@@ -142,6 +163,7 @@ button {
   animation-delay: 2s;
 }
 
+/* Notes & Bolts Scaling Small to Large */
 @keyframes notes {
   0% {
     font-size: 5px;
@@ -189,18 +211,17 @@ opacity: 1 !important;
 visibility: visible !important;
 }
 
-
 /* Source typeface translated from retro 80s font: Arcade Machine for personal & educational use */
 #GOOGLE {
 position: absolute;
 top: -10px;
 display: flex;
 height: 70%;
-max-width: 380px;
-right: 134px;
+max-width: 390px;
+right: 135px;
 padding-left: 88px;
-padding-top: 44px;
-
+padding-top: 35px;
+z-index: 1;
 }
 
 
