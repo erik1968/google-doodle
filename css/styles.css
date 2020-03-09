@@ -97,7 +97,7 @@ button {
 }
 
 .note-position-5 {
-  top: 150px;
+  top: 185px;
   right: 115px;
 }
 
@@ -112,22 +112,22 @@ button {
 }
 
 .note-position-3 {
-  top: 160px;
-  left: 85px;
+  top: 175px;
+  left: 65px;
 }
 
 .note-position-7 {
-  top: 160px;
-  right: 100px;
+  top: 180px;
+  right: 80px;
 }
 
 .note-position-4 {
-  top: 155px;
-  left: 75px;
+  top: 170px;
+  left: 85px;
 }
 
 .note-position-8 {
-  top: 155px;
+  top: 170px;
   right: 30px;
 }
 
@@ -154,7 +154,7 @@ button {
   }
   100% {
     font-size: 35px;
-    margin-top: -150px;
+    margin-top: -185px;
     opacity: 0; 
   }
 }
